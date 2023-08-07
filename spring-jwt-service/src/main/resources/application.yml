@@ -1,0 +1,17 @@
+#/** * @author MayilaiMuthu * @since 08-Aug-2023 **/
+
+#Data Source Config
+
+spring:
+   datasource:
+       driver-class-name: com.mysql.cj.jdbc.Driver
+       url: jdbc:mysql://localhost/taxi
+       username: root
+       password: root
+       
+#Server Config             
+
+server:
+    port: 7071
+    servlet:
+      context-path: /api       
